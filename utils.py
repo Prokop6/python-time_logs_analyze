@@ -10,3 +10,9 @@ def read_files(input_data: list[str]) -> list[str]:
             content = input_dat.read()
             data.append(content)
     return data
+
+
+def write_to_txt(input_data: dict):
+    '''writes input to a file'''
+    with open(f"run_times-{input_data['day']}.txt","x", encoding="utf8"):
+        print("file created")
