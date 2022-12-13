@@ -5,7 +5,7 @@ Performs regexp analysis on supplied file and returns a scatterplot of data
 """
 
 import sys
-from utils.utils import read_files
+from utils import read_files
 import process
 
 def main(input_data: list[str]) -> list[str]:
